@@ -19,7 +19,7 @@ jobs:
       - name: Build chmod
         run: chmod +x patch_qudao.sh
       - name: download chmod
-        run: chmod +x patch_qudao.sh
+        run: chmod +x download.sh
       - name: download
         run:  ./download.sh
       - name: Build apk
