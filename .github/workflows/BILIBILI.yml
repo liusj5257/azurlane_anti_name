@@ -1,4 +1,4 @@
-name: Ship_Name
+name: BILIBILI
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Setup Java JDK
         uses: actions/setup-java@v3.3.0
         with:
@@ -17,14 +17,14 @@ jobs:
           distribution: "adopt"
 
       - name: Build chmod
-        run: chmod +x patch_perseus.sh 
+        run: chmod +x patch_bilibili.sh
       - name: Build apk
-        run:  ./patch_perseus.sh
+        run:  ./patch_bilibili.sh
       - name: Zipalign chmod
-        run: chmod +x zipalign_sign.sh 
+        run: chmod +x zipalign_sign.sh
       - name: Zipalign and Sign Android release
         run: ./zipalign_sign.sh
-                    
+
       - uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"

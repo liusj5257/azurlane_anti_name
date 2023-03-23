@@ -27,7 +27,7 @@ chmod +x apkeep
 # Download Azur Lane
 download_azurlane () {
     if [ ! -f "com.YoStarEN.AzurLane.xapk" ]; then
-    # 目标网址
+    # 下载游戏apk的地址,我找不到一个固定的链接,理论上每次更新客户端都要手动改地址
     url="https://pkg.biligame.com/games/blhx_6.2.1_bilibili_20221107_143634.apk"
     # 使用wget命令下载apk文件
     wget  $url
@@ -37,7 +37,7 @@ download_azurlane () {
 if [ ! -f "AzurLane.apk" ]; then
     echo "Get Azur Lane apk"
     download_azurlane
-    mv "blhx_6.2.1_bilibili_20221107_143634.apk" "AzurLane.apk"
+    mv "*.apk" "AzurLane.apk"
 fi
 
 
