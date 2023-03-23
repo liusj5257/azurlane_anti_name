@@ -54,9 +54,11 @@ invoke-static {p0}, Lcom/unity3d/player/UnityPlayerActivity;->init(Landroid/cont
 ```
 
 ## 1x3
+把仓库里libs文件夹里的三个文件夹复制到apk中lib文件夹里
+## 1x4
 一路保存并退出
 
-## 1x4
+## 1x5
 卸载碧蓝航线，安装修改后的apk文件
 （你可以选择重新下7G或者先把``/sdcard/Android/data/(你的碧蓝航线包名)``包名一般包括<bilibili> <blhx> <azurline> 改一个名字，等重装完碧蓝航线再替换回原名字）
 
