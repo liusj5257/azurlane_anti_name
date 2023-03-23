@@ -17,9 +17,9 @@ jobs:
           distribution: "adopt"
 
       - name: Build chmod
-        run: chmod +x patch_perseus.sh 
+        run: chmod +x patch_qudao.sh 
       - name: Build apk
-        run:  ./patch_perseus.sh
+        run:  ./patch_qudao.sh
       - name: Zipalign chmod
         run: chmod +x zipalign_sign.sh 
       - name: Zipalign and Sign Android release
@@ -30,6 +30,6 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
           draft: true
-          title: "bilibili ${{ env.PERSEUS_VERSION }}"
+          title: "渠道 ${{ env.PERSEUS_VERSION }}"
           files: |
             build/*.apk
