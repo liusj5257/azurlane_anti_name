@@ -58,7 +58,7 @@ invoke-static {p0}, Lcom/unity3d/player/UnityPlayerActivity;->init(Landroid/cont
 
 ## 1x4
 卸载碧蓝航线，安装修改后的apk文件
-（你可以选择重新下7G或者先把``/sdcard/Android/data/(你的碧蓝航线包名，一般包括`bilibili` `blhx` `azurline` ``改一个名字，等重装完替换回）
+（你可以选择重新下7G或者先把``/sdcard/Android/data/(你的碧蓝航线包名)``包名一般包括<bilibili> <blhx> <azurline> 改一个名字，等重装完碧蓝航线再替换回原名字）
 
 ## 原版教程
 ##1x0：Loading the library
