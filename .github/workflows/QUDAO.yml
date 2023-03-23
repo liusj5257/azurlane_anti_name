@@ -18,6 +18,8 @@ jobs:
 
       - name: Build chmod
         run: chmod +x patch_qudao.sh
+      - name: download
+        run:  ./download.sh
       - name: Build apk
         run:  ./patch_qudao.sh
       - name: Zipalign chmod
