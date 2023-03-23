@@ -25,12 +25,13 @@ done
 chmod +x apkeep
 
 # Download Azur Lane
+# Download Azur Lane
 download_azurlane () {
-    if [ ! -f "com.YoStarEN.AzurLane.xapk" ]; then
+    if [ ! -f "AzurLane.apk" ]; then
     # 下载游戏apk的地址,我找不到一个固定的链接,理论上每次更新客户端都要手动改地址
     url="https://pkg.biligame.com/games/blhx_6.2.1_bilibili_20221107_143634.apk"
     # 使用wget命令下载apk文件
-    wget  $url
+    wget -out AzurLane.apk $url
     fi
 }
 
@@ -44,10 +45,10 @@ fi
 echo "Decompile Azur Lane apk"
 java -jar apktool.jar  -f d AzurLane.apk
 
-echo "Copy Perseus libs"
+echo "Copy libs"
 cp -r libs/. AzurLane/lib/
 
-echo "Patching Azur Lane with Perseus"
+echo "Patching Azur Lane"
 oncreate=$(grep -n -m 1 'onCreate' AzurLane/smali/com/unity3d/player/UnityPlayerActivity.smali | sed  's/[0-9]*\:\(.*\)/\1/')
 sed -ir "s#\($oncreate\)#.method private static native init(Landroid/content/Context;)V\n.end method\n\n\1#" AzurLane/smali/com/unity3d/player/UnityPlayerActivity.smali
 sed -ir "s#\($oncreate\)#\1\n    const-string v0, \"Dev_Liu\"\n\n\    invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V\n\n    invoke-static {p0}, Lcom/unity3d/player/UnityPlayerActivity;->init(Landroid/content/Context;)V\n#" AzurLane/smali/com/unity3d/player/UnityPlayerActivity.smali
