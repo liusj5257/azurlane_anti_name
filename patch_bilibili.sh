@@ -30,7 +30,7 @@ download_azurlane () {
     # 下载游戏apk的地址,我找不到一个固定的链接,理论上每次更新客户端都要手动改地址
     url="https://pkg.biligame.com/games/blhx_6.2.1_bilibili_20221107_143634.apk"
     # 使用wget命令下载apk文件
-    wget -out AzurLane.apk $url
+    curl -o blhx.apk  $url
     fi
 }
 
