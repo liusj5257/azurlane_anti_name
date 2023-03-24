@@ -1,0 +1,39 @@
+name: BAIDU
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Java JDK
+        uses: actions/setup-java@v3.3.0
+        with:
+          java-version: "17"
+          distribution: "adopt"
+
+      - name: Build chmod
+        run: chmod +x patch_baidu.sh
+      - name: download chmod
+        run: chmod +x download.sh
+      - name: download
+        run:  ./download.sh
+      - name: Build apk
+        run:  ./patch_baidu.sh
+      - name: Zipalign chmod
+        run: chmod +x zipalign_sign.sh
+      - name: Zipalign and Sign Android release
+        run: ./zipalign_sign.sh
+
+      - uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          draft: true
+          title: "渠道 ${{ env.PERSEUS_VERSION }}"
+          files: |
+            build/*.apk
