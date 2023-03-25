@@ -74,16 +74,7 @@ Add the following method to `UnityPlayerActivity`, anywhere above its `onCreate`
 .method private static native init(Landroid/content/Context;)V
 .end method
 ```
-And these lines to `onCreate`:
-```smali
 
-
-## Loading the library
-Add the following method to `UnityPlayerActivity`, anywhere above its `onCreate`:
-```smali
-.method private static native init(Landroid/content/Context;)V
-.end method
-```
 And these lines to `onCreate`:
 ```smali
     const-string v0, "Dev_Liu"
