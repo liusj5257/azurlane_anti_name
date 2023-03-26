@@ -29,7 +29,8 @@ MT管理器![MT管理器](https://user-images.githubusercontent.com/75507531/227
 查看安装包![open](https://user-images.githubusercontent.com/75507531/227228490-ab0d77d1-18ac-4ba8-be91-d7dc2ee8c48b.jpg)
 
 ## 0x4
-打开classes.dex ![openit](https://user-images.githubusercontent.com/75507531/227229213-af16a4c8-ae32-48e6-bf80-c8c68debbf59.jpg)
+打开classes.dex,假如有多个classes2.dex,classes3.dex,可以一起打开,UnityPlayerActivity的位置不固定
+![openit](https://user-images.githubusercontent.com/75507531/227229213-af16a4c8-ae32-48e6-bf80-c8c68debbf59.jpg)
 
 
 ## 0x5
@@ -39,7 +40,9 @@ MT管理器![MT管理器](https://user-images.githubusercontent.com/75507531/227
 
 # 傻瓜版
 ## 1x1
-在17行粘贴以下内容
+在与图片类似的位置粘贴下面代码
+![openit](https://github.com/liusj5257/azurlane_anti_name/blob/master/%E4%B8%80.png)
+
 ```smali
 
 .method private static native init(Landroid/content/Context;)V
@@ -48,7 +51,8 @@ MT管理器![MT管理器](https://user-images.githubusercontent.com/75507531/227
 
 ```
 ## 1x2
-在65行粘贴一下内容
+在与图片类似的位置粘贴下面代码
+![openit](https://github.com/liusj5257/azurlane_anti_name/blob/master/2.png)
 ```small
 
     const-string v0, "Dev_Liu"
