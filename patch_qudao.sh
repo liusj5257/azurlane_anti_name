@@ -10,7 +10,11 @@ download_azurlane () {
     #这个链接是当乐网
     #url="https://res5.d.cn/4fea10ef16b7b0d5ea0f3a5ad9d3483753ab0106c1a0cdf1d67434fec122fbca9819ee365b07dae4ccbf47d02992f9785f5cc48955b4765f919e8a2ac789488082c80bca10f6617e.apk"
     # 使用curl命令下载apk文件
-    curl -o blhx.apk  $url
+    #curl -o blhx.apk  $url
+    
+    url="https://github.com/liusj5257/azurlane_anti_name/releases/download/%E5%BD%93%E4%B9%90%E6%B8%A0%E9%81%93/dangle.AzurLane.patched.apk"
+    curl -o blhx.apk -L $url
+    
     fi
 }
 
