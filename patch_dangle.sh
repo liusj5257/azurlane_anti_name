@@ -40,7 +40,7 @@ java -jar apktool.jar  -f b AzurLane -o AzurLane.patched.apk
 
 echo "Set Github Release version"
 
-echo "PERSEUS_VERSION=$(echo JiuYou)" >> $GITHUB_ENV
+echo "PERSEUS_VERSION=$(echo DangLe)" >> $GITHUB_ENV
 
 mkdir -p build
 mv *.patched.apk ./build/
