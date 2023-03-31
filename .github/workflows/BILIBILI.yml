@@ -16,7 +16,11 @@ jobs:
           java-version: "17"
           distribution: "adopt"
 
-      - name: Build chmod
+      - name: chmod download
+        run: chmod +x download.sh
+      - name: download
+        run:  ./download.sh
+      - name: chmod Build
         run: chmod +x patch_bilibili.sh
       - name: Build apk
         run:  ./patch_bilibili.sh
@@ -28,8 +32,8 @@ jobs:
       - uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
+          automatic_release_tag: "BILIBILI"
           draft: true
-          title: "BILIBILI ${{ env.PERSEUS_VERSION }}"
+          title: " ${{ env.PERSEUS_VERSION }}"
           files: |
             build/*.apk

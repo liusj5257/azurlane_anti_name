@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-# Download Azur Lane
 # Download Azur Lane
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
@@ -35,7 +33,7 @@ java -jar apktool.jar  -f b AzurLane -o AzurLane.patched.apk
 
 echo "Set Github Release version"
 
-echo "PERSEUS_VERSION=$(echo Ship_Name)" >> $GITHUB_ENV
+echo "PERSEUS_VERSION=$(echo BaiDu)" >> $GITHUB_ENV
 
 mkdir -p build
 mv *.patched.apk ./build/
