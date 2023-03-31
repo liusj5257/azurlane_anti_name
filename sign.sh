@@ -8,4 +8,5 @@ for f in build/*.apk; do
     # 使用apksigner工具对zipaligned后的apk文件进行签名，使用testkey.pk8和testkey.x509.pem作为密钥和证书
   java -jar "C:\apktool\lib\apksigner.jar"   sign --key testkey.pk8 --cert testkey.x509.pem $f
 # 结束循环
+
 done
