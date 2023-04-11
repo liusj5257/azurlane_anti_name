@@ -1,4 +1,4 @@
-name: JiuYou
+name: XiaoMi
 
 on:
   workflow_dispatch:
