@@ -13,7 +13,8 @@ declare -A artifacts
 
 artifacts["apkeep"]="EFForg/apkeep apkeep-x86_64-unknown-linux-gnu"
 artifacts["apktool.jar"]="iBotPeaches/Apktool apktool .jar"
-
+sudo apt-get update
+sudo apt-get install -y axel
 # Fetch all the dependencies
 for artifact in "${!artifacts[@]}"; do
     if [ ! -f $artifact ]; then
