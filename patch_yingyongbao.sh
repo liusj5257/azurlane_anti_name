@@ -13,7 +13,8 @@ download_azurlane () {
     #curl -o blhx.apk  $url
     #url="https://c1.g.mi.com/package/AppStore/01d47c0d09ac743e3906d18e7269f4b786a951c12/eyJhcGt2Ijo2MjIwLCJuYW1lIjoiY29tLmJpbGliaWxpLmJsaHgubWkiLCJ2ZXJzaW9uIjoiMS4wIiwiY2lkIjoibWVuZ18xNDM5XzM0NV9hbmRyb2lkIiwibWQ1IjpmYWxzZX0/5d79bb51f9146ab21cdbc5621c2a85d5"
     url="https://dd.myapp.com/sjy.00007/sjy.00002/16891/apk/76C7E920C80E082780AEBD7C7C01B46E.apk?mkey=643497372a036a79&f=0000&fsname=com.tencent.tmgp.bilibili.blhx_6310.apk&cip=42.3.76.140&proto=https"
-    curl -o blhx.apk -L $url
+    #curl -o blhx.apk -L $url
+    axel -n 16 -k -o blhx.apk $url
     fi
 }
 
