@@ -1,14 +1,18 @@
 # azurlane_anti_name
+# 功能
+碧蓝航线反和谐:过场图随机12张,皮肤,特触,敌我船名,誓约之戒
+# 使用方法
+1.不需要改data文件下的true,假如第一次安装使用,请先卸载官方安装包后重新安装,重下一遍数据包
 
-碧蓝航线反和谐:过场图随机12张,皮肤,特触,船名,誓约之戒
+2.AssetBundles文件夹里的是戒指以及日服过场图资源,自行替换
 
-不需要改data文件下的true,建议卸载后重新安装,重下一遍数据包
-
-AssetBundles文件夹里的是戒指以及日服过场图资源,自行替换
-
-B服 / 9游版/ 当乐/百度
+B服 / 9游版/ 当乐/百度/小米/应用宝
 
 在Releases下载,渠道服自行测试
+# 常见问题
+1.无法登陆:请用帐号密码登陆,由于修改过apk,签名校验不一致,无法使用其他应用的快捷登陆方式
+
+2.无法充值:使用支付宝,或者登陆网易云等云游戏平台充值
 
 
 
@@ -16,8 +20,7 @@ B服 / 9游版/ 当乐/百度
 
 
 
-
-手动修改的教程如下:（中英混杂）（仅介绍单手机教程）
+# 手动打包的教程如下:（中英混杂）（仅介绍单手机教程）
 
 
 ## 0x1 工具
@@ -38,12 +41,11 @@ MT管理器![MT管理器](https://user-images.githubusercontent.com/75507531/227
 ## 0x5
 在浏览里打开com(文件夹)-->unity3d.player(文件夹)-->UnityPlayerActivity并打开
 
-### 以下通常被认为是一道门槛，希望你能理解它并越过他
 
-# 傻瓜版
+# MT教程
 ## 1x1
 在与图片类似的位置粘贴下面代码
-![openit](https://github.com/liusj5257/azurlane_anti_name/blob/master/%E4%B8%80.png)
+![openit](https://github.com/liusj5257/azurlane_anti_name/blob/master/pic/1.png)
 
 ```smali
 
@@ -54,7 +56,7 @@ MT管理器![MT管理器](https://user-images.githubusercontent.com/75507531/227
 ```
 ## 1x2
 在与图片类似的位置粘贴下面代码
-![openit](https://github.com/liusj5257/azurlane_anti_name/blob/master/2.png)
+![openit](https://github.com/liusj5257/azurlane_anti_name/blob/master/pic/2.png)
 ```small
 
     const-string v0, "Dev_Liu"
