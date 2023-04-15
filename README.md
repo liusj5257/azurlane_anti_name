@@ -1,4 +1,5 @@
 # azurlane_anti_name
+
 # 功能
 碧蓝航线反和谐:过场图随机12张,皮肤,特触,敌我船名,誓约之戒
 # 使用方法
@@ -42,18 +43,21 @@ https://www.bilibili.com/video/BV1iN411K7tt
 
 
 ## 0x1 工具
-MT管理器![MT管理器](https://user-images.githubusercontent.com/75507531/227224515-0b86b246-a995-4f65-8c4c-d7c2934ec975.png)
-或者np管理器![NP管理器](https://user-images.githubusercontent.com/75507531/227224845-d3be7fe7-05d8-494f-a103-05ecb72a4b7a.png)
+MT管理器 <img src="https://user-images.githubusercontent.com/75507531/227224515-0b86b246-a995-4f65-8c4c-d7c2934ec975.png" width="55">
+或者np管理器<img src="https://user-images.githubusercontent.com/75507531/227224845-d3be7fe7-05d8-494f-a103-05ecb72a4b7a.png" width="55">
 
 ## 0x2
 下载你的碧蓝航线的的安装包或者使用以上任意一种提取安装包
 
 ## 0x3
-查看安装包![open](https://user-images.githubusercontent.com/75507531/227228490-ab0d77d1-18ac-4ba8-be91-d7dc2ee8c48b.jpg)
+查看安装包
+
+<img src="https://user-images.githubusercontent.com/75507531/227228490-ab0d77d1-18ac-4ba8-be91-d7dc2ee8c48b.jpg" width="450">
 
 ## 0x4
 打开classes.dex,假如有多个classes2.dex,classes3.dex,可以一起打开,UnityPlayerActivity的位置不固定
-![openit](https://user-images.githubusercontent.com/75507531/227229213-af16a4c8-ae32-48e6-bf80-c8c68debbf59.jpg)
+
+<img src="https://user-images.githubusercontent.com/75507531/227229213-af16a4c8-ae32-48e6-bf80-c8c68debbf59.jpg" width="450">
 
 
 ## 0x5
@@ -63,7 +67,8 @@ MT管理器![MT管理器](https://user-images.githubusercontent.com/75507531/227
 # MT教程
 ## 1x1
 在与图片类似的位置粘贴下面代码
-![openit](https://github.com/liusj5257/azurlane_anti_name/blob/master/pic/1.png)
+
+<img src="https://github.com/liusj5257/azurlane_anti_name/blob/master/pic/1.png" width="450">
 
 ```smali
 
@@ -74,7 +79,9 @@ MT管理器![MT管理器](https://user-images.githubusercontent.com/75507531/227
 ```
 ## 1x2
 在与图片类似的位置粘贴下面代码
-![openit](https://github.com/liusj5257/azurlane_anti_name/blob/master/pic/2.png)
+
+<img src="https://github.com/liusj5257/azurlane_anti_name/blob/master/pic/2.png" width="450">
+
 ```small
 
     const-string v0, "Dev_Liu"
