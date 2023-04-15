@@ -16,7 +16,7 @@ https://www.bilibili.com/video/BV1iN411K7tt
 
 # Magisk_Zygisk 模块
 
-不再修改官方包,没有签名问题
+不用修改官方包,没有签名问题
 
 前提ROOT Magisk 开启Zygisk模式
 
@@ -118,4 +118,5 @@ And these lines to `onCreate`:
 * https://github.com/Rprop/And64InlineHook.
 * https://github.com/joeyjurjens/Android-Hooking-Template.
 * https://github.com/n0k0m3/Azur-Lane-Scripts-Autopatcher.
+* https://github.com/Perfare/Zygisk-Il2CppDumper
 
