@@ -13,6 +13,20 @@ B服 / 9游版/ 当乐/百度/小米/应用宝
 
 https://www.bilibili.com/video/BV1iN411K7tt
 
+
+# Magisk_Zygisk 模块
+
+不再修改官方包,没有签名问题
+
+前提ROOT Magisk 开启Zygisk模式
+
+理论支持以下几个包名:
+
+"com.bilibili.azurlane","com.bilibili.blhx.mi","com.bilibili.blhx.uc","com.tencent.tmgp.bilibili.blhx","com.bilibili.blhx.baidu","com.bilibili.blhx.dl"
+
+只测试了官服
+
+
 # 常见问题
 1.无法登陆:请用帐号密码登陆,由于修改过apk,签名校验不一致,无法使用其他应用的快捷登陆方式
 
