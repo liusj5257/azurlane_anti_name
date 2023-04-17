@@ -17,6 +17,13 @@ https://www.bilibili.com/video/BV1iN411K7tt
 
 # Magisk_Zygisk 模块
 
+真机优先使用V1.0.0版本,有部分系统V1.0.2失效
+
+64位模拟器使用 V1.0.2 版本,并通过 "adb install --abi arm64-v8a XXXX.apk"安装X64碧蓝航线
+测试雷电9 夜神7 均生效
+
+
+
 不用修改官方包,没有签名问题
 
 前提ROOT Magisk 开启Zygisk模式
@@ -126,4 +133,6 @@ And these lines to `onCreate`:
 * https://github.com/joeyjurjens/Android-Hooking-Template.
 * https://github.com/n0k0m3/Azur-Lane-Scripts-Autopatcher.
 * https://github.com/Perfare/Zygisk-Il2CppDumper
+* https://github.com/jmpews/Dobby
+* https://github.com/hexhacking/xDL
 
