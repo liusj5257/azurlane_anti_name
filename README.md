@@ -7,7 +7,9 @@
 
 * UI资源相关
 AssetBundles文件夹直接复制粘贴游戏目录/Android/data/com.bilibili.blhx/files,如果提示是否覆盖说明路径正确
+
 AssetBundleExtractor可以编辑UI资源
+
 AssetStudio可以查看UI资源
 
 
