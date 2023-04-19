@@ -3,14 +3,16 @@
 # 功能
 碧蓝航线反和谐:过场图随机12张,皮肤,特触,敌我船名,誓约之戒
 # 使用方法
-1.不需要改data文件下的true,假如第一次安装使用,请先卸载官方安装包后重新安装,重下一遍数据包
+* 不需要改data文件下的true,假如第一次安装使用,请先卸载官方安装包后重新安装,重下一遍数据包
 
-2.AssetBundles文件夹里的是戒指以及日服过场图资源,自行替换
+* UI资源相关
+AssetBundles文件夹直接复制粘贴游戏目录/Android/data/com.bilibili.blhx/files,如果提示是否覆盖说明路径正确
+AssetBundleExtractor可以编辑UI资源
+AssetStudio可以查看UI资源
 
-B服 / 9游版/ 当乐/百度/小米/应用宝
 
-# [下载点我](https://github.com/liusj5257/azurlane_anti_name/releases)
-
+# [下载apk点我](https://github.com/liusj5257/azurlane_anti_name/releases)
+  apk:B服 / 9游版 / 当乐 /百度 / 小米 /应用宝
 # [修改效果](https://www.bilibili.com/video/BV1iN411K7tt)
 
 # [Magisk_Zygisk 模块](https://github.com/liusj5257/azurlane_anti_name/blob/master/Zygisk.md)
@@ -21,9 +23,7 @@ B服 / 9游版/ 当乐/百度/小米/应用宝
 
 2.无法充值:使用支付宝,或者登陆网易云等云游戏平台充值
 
-
-
-
+3.戒指等图标不对:看看使用方法不会死
 
 
 
