@@ -9,7 +9,8 @@
 
 B服 / 9游版/ 当乐/百度/小米/应用宝
 
-在Releases下载,渠道服自行测试
+# [下载点我](https://github.com/liusj5257/azurlane_anti_name/releases)
+
 # 修改效果
 
 https://www.bilibili.com/video/BV1iN411K7tt
