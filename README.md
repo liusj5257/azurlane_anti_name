@@ -55,7 +55,8 @@ MT管理器 <img src="https://user-images.githubusercontent.com/75507531/2272245
 ## 1x1
 在与图片类似的位置粘贴下面代码
 
-<img src="https://jsd.eagleyao.com/gh/liusj5257/azurlane_anti_name@master/pic/1.png" width="450">
+<img width="450" alt="1" src="https://user-images.githubusercontent.com/87109954/233051748-04a445fd-c719-404d-b914-1394d3b91fa2.png">
+
 
 ```smali
 
@@ -67,7 +68,7 @@ MT管理器 <img src="https://user-images.githubusercontent.com/75507531/2272245
 ## 1x2
 在与图片类似的位置粘贴下面代码
 
-<img src="https://jsd.eagleyao.com/gh/liusj5257/azurlane_anti_name@master/pic/2.png" width="450">
+<img width="450" alt="2" src="https://user-images.githubusercontent.com/87109954/233051967-65b4c090-0042-451f-94c1-8d75de5304ca.png">
 
 ```small
 
