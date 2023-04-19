@@ -20,7 +20,7 @@ https://www.bilibili.com/video/BV1iN411K7tt
 V1.0.3
 * 新增支持4399服
 * 自动替换AssetBundles相关UI资源,如果找不到目录会提示手动替换
-* 修复对MIUI系统的支持
+* 修复对MIUI系统的支持,部分需要重启游戏几次生效
 
 模拟器使用64位版本,并通过 "adb install --abi arm64-v8a XXXX.apk"安装X64碧蓝航线
 
