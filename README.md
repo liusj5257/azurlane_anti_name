@@ -81,9 +81,12 @@ MT管理器 <img src="https://user-images.githubusercontent.com/75507531/2272245
 ```
 
 ## 1x3
-把仓库里libs文件夹里的三个文件夹复制到apk中lib文件夹里
+
+把仓库里[libs文件夹](https://github.com/liusj5257/azurlane_anti_name/tree/master/libs)里的三个文件夹复制到apk中lib文件夹里
+
 ## 1x4
-一路保存并退出
+
+一路保存并退出,别忘记勾选自动签名
 
 ## 1x5
 卸载碧蓝航线，安装修改后的apk文件
