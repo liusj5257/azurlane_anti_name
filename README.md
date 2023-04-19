@@ -11,13 +11,9 @@ B服 / 9游版/ 当乐/百度/小米/应用宝
 
 # [下载点我](https://github.com/liusj5257/azurlane_anti_name/releases)
 
-# 修改效果
+# [修改效果](https://www.bilibili.com/video/BV1iN411K7tt)
 
-https://www.bilibili.com/video/BV1iN411K7tt
-
-
-# [Magisk_Zygisk 模块](https://github.com/liusj5257/azurlane_anti_name/Zygisk.md)
-
+# [Magisk_Zygisk 模块](https://github.com/liusj5257/azurlane_anti_name/blob/master/Zygisk.md)
 
 
 # 常见问题
