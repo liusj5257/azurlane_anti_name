@@ -7,14 +7,14 @@
 
 * UI资源相关
  
-            AssetBundles文件夹直接复制粘贴游戏目录/Android/data/com.bilibili.blhx/files,如果提示是否覆盖说明路径正确
+      AssetBundles文件夹直接复制粘贴游戏目录/Android/data/com.bilibili.blhx.XXXX/files,如果提示是否覆盖,说明路径正确
 
-            AssetBundleExtractor可以编辑UI资源
+      AssetBundleExtractor可以编辑UI资源
 
-            AssetStudio可以查看UI资源
+      AssetStudio可以查看UI资源
 
 
-# [下载apk点击](https://github.com/liusj5257/azurlane_anti_name/releases)
+# [点击下载apk](https://github.com/liusj5257/azurlane_anti_name/releases)
   
 * apk:B服 / 9游版 / 当乐 /百度 / 小米 /应用宝
 
