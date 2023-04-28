@@ -14,11 +14,6 @@
       AssetStudio可以查看UI资源
 
 
-# [点击下载apk](https://github.com/liusj5257/azurlane_anti_name/releases)
-  
-* apk:B服 / 9游版 / 当乐 /百度 / 小米 /应用宝
-
-* 没有的渠道服手动打包[教程](https://github.com/liusj5257/azurlane_anti_name/blob/master/MT.md)
 
 # [修改效果](https://www.bilibili.com/video/BV1iN411K7tt)
 
@@ -31,7 +26,16 @@
 
 3.戒指等UI资源没变: **看看使用方法真不难**
 
-![ 2abaa9bef50aa6a6f728d0e449a894d](https://user-images.githubusercontent.com/87109954/235016127-e3dbb274-1bea-4596-8193-7d4a79845f6c.jpg)
+ <img src="https://user-images.githubusercontent.com/87109954/235017166-13c2b60e-c9be-4b95-aada-1094e9e39a0b.jpg" width="450">
+ 
+ <img src="https://user-images.githubusercontent.com/87109954/235016127-e3dbb274-1bea-4596-8193-7d4a79845f6c.jpg" width="450">
+ 
+ # [点击下载apk](https://github.com/liusj5257/azurlane_anti_name/releases)
+  
+* apk:B服 / 9游版 / 当乐 /百度 / 小米 /应用宝
+
+* 没有的渠道服手动打包[教程](https://github.com/liusj5257/azurlane_anti_name/blob/master/MT.md)
+
 
 
 ## Credits
