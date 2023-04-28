@@ -31,6 +31,7 @@
 
 3.戒指等UI资源没变: **看看使用方法真不难**
 
+![ 2abaa9bef50aa6a6f728d0e449a894d](https://user-images.githubusercontent.com/87109954/235016127-e3dbb274-1bea-4596-8193-7d4a79845f6c.jpg)
 
 
 ## Credits
