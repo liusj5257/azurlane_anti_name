@@ -1,13 +1,23 @@
 # azurlane_anti_name
-
+* 碧蓝航线反和谐
 # 功能
-碧蓝航线反和谐:过场图随机12张,皮肤,特触,敌我船名,誓约之戒
+* **修改版客户端,风险自负**
+* 过场图随机12张
+* 默认反和谐皮肤
+* 默认开启特触
+* 反和谐敌我船名
+* 誓约之戒
+* 皮肤预览功能
+
+
+
 # 使用方法
-* 不需要改data文件下的true,假如第一次安装使用,请先卸载官方安装包后重新安装,重下一遍数据包
+
+* 不需要改data文件下的true,假如第一次安装使用,请先卸载官方安装包后重新安装**下面的修改包**,重下一遍数据包
 
 * UI资源相关
  
-      AssetBundles文件夹直接复制粘贴游戏目录/Android/data/com.bilibili.blhx.XXXX/files,如果提示是否覆盖,说明路径正确
+      AssetBundles文件夹直接复制粘贴游戏目录/Android/data/com.bilibili.azurlane/files,如果提示是否覆盖,说明路径正确
 
       AssetBundleExtractor可以编辑UI资源
 
