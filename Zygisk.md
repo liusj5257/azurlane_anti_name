@@ -1,7 +1,11 @@
 
-真机自己解BL安装Magisk,开启Zygisk,安装模块生效即可
+真机解锁BL安装Magisk,开启Zygisk,安装模块生效即可
 
 模拟器门槛低一些:[视频教程](https://www.bilibili.com/video/BV1CT411t7vH)
+
+夜神/逍遥/蓝叠P测试生效
+
+雷电9无法调用X86模块,那它只能用1.0.5及以前的旧方案了,使用ADB命令安装X64游戏,调用X64模块
 
 ## 修改日志:
 
