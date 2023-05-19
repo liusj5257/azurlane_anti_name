@@ -46,7 +46,9 @@
 
 * 没有的渠道服手动打包[教程](https://github.com/liusj5257/azurlane_anti_name/blob/master/MT.md)
 
+# 请我喝杯奶茶
 
+[爱发电大舞台](https://afdian.net/a/azurlane_anti_name)
 
 ## Credits
 * https://github.com/adamyaxley/Obfuscate.
