@@ -50,6 +50,21 @@
 
 [爱发电大舞台](https://afdian.net/a/azurlane_anti_name)
 
+
+ 
+* 感谢支持
+      
+      嘿嘿嘿
+      慕缘
+      黯黑零尧
+      2535414439
+      一号
+      爱发电用户_3UA8
+
+
+
+
+
 ## Credits
 * https://github.com/adamyaxley/Obfuscate.
 * https://github.com/Rprop/And64InlineHook.
