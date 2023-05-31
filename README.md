@@ -42,9 +42,11 @@
  
  <img src="https://user-images.githubusercontent.com/87109954/235016127-e3dbb274-1bea-4596-8193-7d4a79845f6c.jpg" width="450">
  
- # [点击下载apk](https://github.com/liusj5257/azurlane_anti_name/releases)
+ # 客户端下载地址
   
-* apk:B服 / 9游版 / 当乐 /百度 / 小米 /应用宝
+* apk:[B服](https://github.com/liusj5257/azurlane_anti_name/releases/tag/BILIBILI) / [九游](https://github.com/liusj5257/azurlane_anti_name/releases/tag/JiuYou) / [当乐](https://github.com/liusj5257/azurlane_anti_name/releases/tag/DangLe) /[百度](https://github.com/liusj5257/azurlane_anti_name/releases/tag/BaiDu) / [小米](https://github.com/liusj5257/azurlane_anti_name/releases/tag/XiaoMi) /[应用宝](https://github.com/liusj5257/azurlane_anti_name/releases/tag/YingYongBao)
+
+* [UI相关资源](https://github.com/liusj5257/azurlane_anti_name/releases/tag/AssetBundles)
 
 * 没有的渠道服手动打包[教程](https://github.com/liusj5257/azurlane_anti_name/blob/master/MT.md)
 
