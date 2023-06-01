@@ -31,6 +31,10 @@
 
 # [Magisk_Zygisk 模块](https://github.com/liusj5257/azurlane_anti_name/blob/master/Zygisk.md)
 
+# 自动更新过场图
+
+  * 下载指定服务器的assetbundles后,解压覆盖游戏:[仓库地址](https://github.com/liusj5257/AzurLaneAssetBundles/)
+
 # 常见问题
 1.无法登陆:请用帐号密码登陆,由于修改过apk,签名校验不一致,无法使用其他应用的快捷登陆方式
 
@@ -58,12 +62,12 @@
  
 * 感谢支持
       
-      嘿嘿嘿         orvin
-      慕缘           vvan22
-      黯黑零尧       AHua
-      2535414439
-      一号
-      小鳥遊ホシノ
+      嘿嘿嘿         orvin      山田赫敏
+      慕缘           vvan22     爱发电用户_vNQs
+      黯黑零尧       AHua        爱发电用户_EjpU
+      2535414439    DDDIO       琴寄文乃
+      一号          时间似深海   Yonagi
+      小鳥遊ホシノ   kuuga       竹南
 
 
 
