@@ -42,7 +42,20 @@ jobs:
         chmod +x ./gradlew
         ./gradlew build
       working-directory: xposed
-    - uses: marvinpinto/action-automatic-releases@latest
+      
+    - name: upload XposedCheat apk
+      if: ${{ github.event.inputs.cheat }} == 'true'
+      uses: marvinpinto/action-automatic-releases@latest
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: "XposedCheat"
+        draft: true
+        title: "XposedCheat"
+        files: |
+          xposed/output/*.apk
+    - name: upload apk
+      if: ${{ github.event.inputs.cheat }} != 'true'
+      uses: marvinpinto/action-automatic-releases@latest
       with:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
         automatic_release_tag: "Xposed"
