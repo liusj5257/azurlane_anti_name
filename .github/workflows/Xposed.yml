@@ -42,4 +42,12 @@ jobs:
         chmod +x ./gradlew
         ./gradlew build
       working-directory: xposed
+    - uses: marvinpinto/action-automatic-releases@latest
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: "Xposed"
+        draft: true
+        title: "Xposed"
+        files: |
+          xposed/output/*.apk
 
