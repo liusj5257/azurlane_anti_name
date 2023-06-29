@@ -4,7 +4,7 @@ on:
       inputs:
         cheat:
           description: "module name:"
-          required: true
+          required: false
 
 jobs:
   build:
@@ -32,9 +32,9 @@ jobs:
     - name: build lib
       run: |
         chmod +x ./gradlew
-        if [[ ${{ github.event.inputs.cheat }} == 'true' ]]; then
-          sed -i '/endif()/a add_definitions(-D CHEAT)' module/src/main/cpp/CMakeLists.txt
-        fi
+        # if [[ ${{ github.event.inputs.cheat }} == 'true' ]]; then
+        #   sed -i '/endif()/a add_definitions(-D CHEAT)' module/src/main/cpp/CMakeLists.txt
+        # fi
         ./gradlew :module:assembleRelease
       working-directory: Zygisk-Azurlane
     - name: build xposed apk
@@ -43,16 +43,6 @@ jobs:
         ./gradlew build
       working-directory: xposed
       
-    - name: upload XposedCheat apk
-      if: ${{ github.event.inputs.cheat }} == 'true'
-      uses: marvinpinto/action-automatic-releases@latest
-      with:
-        repo_token: "${{ secrets.GITHUB_TOKEN }}"
-        automatic_release_tag: "XposedCheat"
-        draft: true
-        title: "XposedCheat"
-        files: |
-          xposed/output/*.apk
     - name: upload apk
       if: ${{ github.event.inputs.cheat }} != 'true'
       uses: marvinpinto/action-automatic-releases@latest
@@ -64,3 +54,26 @@ jobs:
         files: |
           xposed/output/*.apk
 
+    - name: build lib
+      run: |
+        chmod +x ./gradlew
+        sed -i '/endif()/a add_definitions(-D CHEAT)' module/src/main/cpp/CMakeLists.txt
+        ./gradlew :module:assembleRelease
+      working-directory: Zygisk-Azurlane
+      
+    - name: build xposed apk
+      run: |
+        chmod +x ./gradlew
+        ./gradlew build
+      working-directory: xposed
+
+    - name: upload XposedCheat apk
+      if: ${{ github.event.inputs.cheat }} == 'true'
+      uses: marvinpinto/action-automatic-releases@latest
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: "XposedCheat"
+        draft: true
+        title: "XposedCheat"
+        files: |
+          xposed/output/*.apk
