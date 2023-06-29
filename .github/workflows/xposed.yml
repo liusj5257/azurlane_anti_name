@@ -1,0 +1,45 @@
+name: Xposed
+on:
+  workflow_dispatch:
+      inputs:
+        cheat:
+          description: "module name:"
+          required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout Zygisk-Azurlane
+      uses: actions/checkout@v3
+      with:
+        repository: liusj5257/Zygisk-Azurlane
+        token: ${{ secrets.TOKEN }}
+        ref: main
+        path: Zygisk-Azurlane
+    - name: checkout xposed
+      uses: actions/checkout@v3
+      with:
+        repository: liusj5257/Zygisk-Azurlane
+        token: ${{ secrets.TOKEN }}
+        ref: xposed
+        path: xposed
+    - uses: actions/setup-java@v3
+      with:
+        distribution: temurin
+        java-version: 17
+        cache: gradle
+    - name: build lib
+      run: |
+        chmod +x ./gradlew
+        if [[ ${{ github.event.inputs.cheat }} == 'true' ]]; then
+          sed -i '/endif()/a add_definitions(-D CHEAT)' module/src/main/cpp/CMakeLists.txt
+        fi
+        ./gradlew :module:assembleRelease
+      working-directory: Zygisk-Azurlane
+    - name: build xposed apk
+      run: |
+        chmod +x ./gradlew
+        ./gradlew build
+      working-directory: xposed
+
