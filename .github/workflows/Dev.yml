@@ -1,6 +1,7 @@
 name: Dev
 
 on:
+  push:
   workflow_dispatch:
 
 jobs:
@@ -32,7 +33,7 @@ jobs:
       - name: Update AssetBundles
         run: |
           python downloadAsset.py
-#         working-directory: py
+        working-directory: py
 #       - name: chmod download
 #         run: chmod +x download.sh
 #       - name: download
