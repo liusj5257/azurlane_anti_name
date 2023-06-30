@@ -5,13 +5,7 @@
 # Download Azur Lane
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
-    # 这个链接是MUMU下载的,应该是9游,其他渠道自行修改直链
-    #url="https://downali.game.uc.cn/s1/2/10/20230213150150_blhx_uc_2022_11_02_18_24_01.apk?x-oss-process=udf/uc-apk,ZBHDhDR0LVBkTsK*wpLCng==afae37c2a88fd1ca&sh=10&sf=1831727323&vh=18330f93bd450707942ce0b882a0c6b2&cc=2521889677&did=217b729f8a4841dd81901816dfba551f"
-    #这个链接是当乐网
-    #url="https://res5.d.cn/4fea10ef16b7b0d5ea0f3a5ad9d3483753ab0106c1a0cdf1d67434fec122fbca9819ee365b07dae4ccbf47d02992f9785f5cc48955b4765f919e8a2ac789488082c80bca10f6617e.apk"
-    # 使用curl命令下载apk文件
-    #curl -o blhx.apk  $url
-    url="https://c1.g.mi.com/package/AppStore/01d47c0d09ac743e3906d18e7269f4b786a951c12/eyJhcGt2Ijo2MjIwLCJuYW1lIjoiY29tLmJpbGliaWxpLmJsaHgubWkiLCJ2ZXJzaW9uIjoiMS4wIiwiY2lkIjoibWVuZ18xNDM5XzM0NV9hbmRyb2lkIiwibWQ1IjpmYWxzZX0/5d79bb51f9146ab21cdbc5621c2a85d5"
+    url="https://c1.g.mi.com/package/AppStore/009928b11501c4c0791c51e2cf1645dae02fd3210/eyJhcGt2Ijo3MTEwLCJuYW1lIjoiY29tLmJpbGliaWxpLmJsaHgubWkiLCJ2ZXJzaW9uIjoiMS4wIiwiY2lkIjoibWVuZ18xNDM5XzM0OF9hbmRyb2lkIiwibWQ1IjpmYWxzZX0/b9a113ae2959f818f46dc8109130bc06"
     curl -o blhx.apk -L $url
     fi
 }
