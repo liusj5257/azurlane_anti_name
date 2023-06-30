@@ -18,12 +18,10 @@
 * 请先卸载官方安装包后,重新安装**下面的修改包**,重下一遍数据包
 
 * UI资源相关
- 
-      AssetBundles文件夹直接复制粘贴游戏目录/Android/data/com.bilibili.azurlane/files,如果提示是否覆盖,说明路径正确
-
-      AssetBundleExtractor可以编辑UI资源
-
-      AssetStudio可以查看UI资源
+  
+  **一定要替换一次,否则誓约界面等戒指还是盒子**
+  
+    此Release自动更新过场图,如果更新了请再次下载替换:[下载地址](https://github.com/liusj5257/AzurLaneAssetBundles/)
 
 
 
@@ -35,7 +33,7 @@
 [仓库地址](https://github.com/liusj5257/AzurLaneAssetBundles/)
   * main分支仅包括各个服务器的Loadingbg,替换即可
   * All分支包括所有AssetBundles解包PNG
-  * release包括所有Assetbundles,也可直接替换
+  * PRErelease包括所有Assetbundles,也可直接替换
 
 # 常见问题
 1.无法登陆:请用帐号密码登陆,由于修改过apk,签名校验不一致,无法使用其他应用的快捷登陆方式
