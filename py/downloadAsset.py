@@ -40,3 +40,4 @@ for root, dirs, files in os.walk(os.getcwd()):
         if not ext:
             new_path = old_path + ".ys"
             os.rename(old_path, new_path)
+            print(new_path)
