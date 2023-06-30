@@ -12,7 +12,7 @@ download_azurlane () {
     # 使用curl命令下载apk文件
     #curl -o blhx.apk  $url
     #url="https://c1.g.mi.com/package/AppStore/01d47c0d09ac743e3906d18e7269f4b786a951c12/eyJhcGt2Ijo2MjIwLCJuYW1lIjoiY29tLmJpbGliaWxpLmJsaHgubWkiLCJ2ZXJzaW9uIjoiMS4wIiwiY2lkIjoibWVuZ18xNDM5XzM0NV9hbmRyb2lkIiwibWQ1IjpmYWxzZX0/5d79bb51f9146ab21cdbc5621c2a85d5"
-    url="https://dd.myapp.com/sjy.00007/sjy.00002/16891/apk/76C7E920C80E082780AEBD7C7C01B46E.apk?mkey=643497372a036a79&f=0000&fsname=com.tencent.tmgp.bilibili.blhx_6310.apk&cip=42.3.76.140&proto=https"
+    url="https://4fd2088a2f1aa3f0a7ea03018d1f0fb8.dlied1.cdntips.net/imtt2.dd.qq.com/sjy.00008/sjy.00002/16891/apk/DE28E7C87C7014D5A449D2EDAA86203F.apk?mkey=649e74653da465d3&f=8917&fsname=com.tencent.tmgp.bilibili.blhx_7110.apk&cip=61.164.67.38&proto=https"
     #curl -o blhx.apk -L $url
     axel -n 16 -k -o blhx.apk $url
     fi
@@ -35,6 +35,9 @@ echo "Patching Azur Lane"
 oncreate=$(grep -n -m 1 'onCreate' AzurLane/smali/com/unity3d/player/UnityPlayerActivity.smali | sed  's/[0-9]*\:\(.*\)/\1/')
 sed -ir "s#\($oncreate\)#.method private static native init(Landroid/content/Context;)V\n.end method\n\n\1#" AzurLane/smali/com/unity3d/player/UnityPlayerActivity.smali
 sed -ir "s#\($oncreate\)#\1\n    const-string v0, \"Dev_Liu\"\n\n\    invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V\n\n    invoke-static {p0}, Lcom/unity3d/player/UnityPlayerActivity;->init(Landroid/content/Context;)V\n#" AzurLane/smali/com/unity3d/player/UnityPlayerActivity.smali
+
+
+
 
 echo "Build Patched Azur Lane apk"
 java -jar apktool.jar  -f b AzurLane -o AzurLane.patched.apk
