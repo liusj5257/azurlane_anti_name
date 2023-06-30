@@ -32,3 +32,11 @@ with open(filename, "wb") as f:
 # Extract the rar file to the current directory
 with rarfile.RarFile(filename, 'r') as rar_ref:
     rar_ref.extractall(os.getcwd())
+
+# Rename all extracted files by adding .ys extension
+for root, dirs, files in os.walk(os.getcwd()):
+    for file in files:
+        old_path = os.path.join(root, file)
+        new_path = old_path + ".ys"
+        os.rename(old_path, new_path)
+        print(new_path)
