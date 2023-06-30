@@ -58,6 +58,8 @@
 
 [爱发电大舞台](https://afdian.net/a/azurlane_anti_name)
 
+**支付宝请备注ID**
+
  <img src="https://github.com/liusj5257/azurlane_anti_name/assets/87109954/7a8d312f-b7a0-48dc-b8ec-7f897828bc94" width="250">
 
 * 感谢支持
