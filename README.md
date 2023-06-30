@@ -21,7 +21,7 @@
   
   **一定要替换一次,否则誓约界面等戒指还是盒子**
   
-    此Release自动更新过场图,如果更新了请再次下载替换:[下载地址](https://github.com/liusj5257/AzurLaneAssetBundles/)
+    此Release自动更新过场图,如果更新了请再次下载替换:[下载地址](https://github.com/liusj5257/AzurLaneAssetBundles/releases/tag/AssetBundles)
 
 
 
