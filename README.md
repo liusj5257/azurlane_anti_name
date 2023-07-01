@@ -2,13 +2,12 @@
 * 碧蓝航线反和谐
 # 功能
 * **修改版客户端,风险自负**
+* 皮肤预览功能
 * 过场图随机12张
 * 默认反和谐皮肤
 * 默认开启特触
 * 反和谐敌我船名
 * 誓约之戒
-* 皮肤预览功能
-
 
 
 # 使用方法
@@ -18,22 +17,20 @@
 * 第一次使用,请先卸载官方安装包后,重新安装**下面的修改包**,重下一遍数据包
 
 * UI资源相关
-  
-  **一定要替换一次,否则誓约界面等戒指还是盒子**
-  
-    此Release自动更新过场图,如果更新了请再次下载替换:[下载地址](https://github.com/liusj5257/AzurLaneAssetBundles/releases/tag/AssetBundles)
+  **一定要替换一次,否则誓约界面等戒指还是盒子** 
+  <details>
+  <summary>点击展开</summary>
+    此Release自动更新过场图
+    
+    如果更新了请再次下载替换: [下载地址](https://github.com/liusj5257/AzurLaneAssetBundles/releases/tag/AssetBundles)
+  </details>
 
-
+  
 
 # [修改效果](https://www.bilibili.com/video/BV1iN411K7tt)
 
 # [Magisk_Zygisk 模块](https://github.com/liusj5257/azurlane_anti_name/blob/master/Zygisk.md)
 
-# 自动更新过场图
-[仓库地址](https://github.com/liusj5257/AzurLaneAssetBundles/)
-  * main分支仅包括各个服务器的Loadingbg,替换即可
-  * All分支包括所有AssetBundles解包PNG
-  * PRErelease包括所有Assetbundles,也可直接替换
 
 # 常见问题
 1.无法登陆:请用帐号密码登陆,由于修改过apk,签名校验不一致,无法使用其他应用的快捷登陆方式
