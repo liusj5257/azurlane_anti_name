@@ -67,13 +67,19 @@ jobs:
         ./gradlew build
       working-directory: xposed
 
-    - name: upload XposedCheat apk
-      if: ${{ github.event.inputs.cheat }} == 'true'
-      uses: marvinpinto/action-automatic-releases@latest
+#     - name: upload XposedCheat apk
+#       if: ${{ github.event.inputs.cheat }} == 'true'
+#       uses: marvinpinto/action-automatic-releases@latest
+#       with:
+#         repo_token: "${{ secrets.GITHUB_TOKEN }}"
+#         automatic_release_tag: "XposedCheat"
+#         draft: true
+#         title: "XposedCheat"
+#         files: |
+#           xposed/output/*.apk
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v3.1.2
       with:
-        repo_token: "${{ secrets.GITHUB_TOKEN }}"
-        automatic_release_tag: "XposedCheat"
-        draft: true
-        title: "XposedCheat"
-        files: |
-          xposed/output/*.apk
+        name: XposedCheat
+        path: xposed/output/*.apk
+
