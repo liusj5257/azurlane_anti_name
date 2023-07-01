@@ -47,8 +47,6 @@
   
 * apk:[B服](https://github.com/liusj5257/azurlane_anti_name/releases/tag/BILIBILI) / [九游](https://github.com/liusj5257/azurlane_anti_name/releases/tag/JiuYou) / [当乐](https://github.com/liusj5257/azurlane_anti_name/releases/tag/DangLe) /[百度](https://github.com/liusj5257/azurlane_anti_name/releases/tag/BaiDu) / [小米](https://github.com/liusj5257/azurlane_anti_name/releases/tag/XiaoMi) /[应用宝](https://github.com/liusj5257/azurlane_anti_name/releases/tag/YingYongBao)
 
-* [UI相关资源](https://github.com/liusj5257/azurlane_anti_name/releases/tag/AssetBundles)
-
 * 没有的渠道服手动打包[教程](https://github.com/liusj5257/azurlane_anti_name/blob/master/MT.md)
 
 # 请我喝杯奶茶
