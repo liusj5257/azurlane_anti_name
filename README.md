@@ -29,7 +29,6 @@
 
 # [修改效果](https://www.bilibili.com/video/BV1iN411K7tt)
 
-# [Magisk_Zygisk 模块](https://github.com/liusj5257/azurlane_anti_name/blob/master/Zygisk.md)
 
 
 # 常见问题
@@ -48,6 +47,10 @@
 * apk:[B服](https://github.com/liusj5257/azurlane_anti_name/releases/tag/BILIBILI) / [九游](https://github.com/liusj5257/azurlane_anti_name/releases/tag/JiuYou) / [当乐](https://github.com/liusj5257/azurlane_anti_name/releases/tag/DangLe) /[百度](https://github.com/liusj5257/azurlane_anti_name/releases/tag/BaiDu) / [小米](https://github.com/liusj5257/azurlane_anti_name/releases/tag/XiaoMi) /[应用宝](https://github.com/liusj5257/azurlane_anti_name/releases/tag/YingYongBao)
 
 * 没有的渠道服手动打包[教程](https://github.com/liusj5257/azurlane_anti_name/blob/master/MT.md)
+
+# [Magisk_Zygisk 模块](https://github.com/liusj5257/azurlane_anti_name/blob/master/Zygisk.md)
+
+# [Lsposed 模块](https://github.com/liusj5257/azurlane_anti_name/releases/tag/Xposed)
 
 # 请我喝杯奶茶
 
