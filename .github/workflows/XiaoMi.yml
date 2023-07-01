@@ -15,7 +15,9 @@ jobs:
         with:
           java-version: "17"
           distribution: "adopt"
-
+      - name: copy file
+        run: |
+          cp -r sh/* ./
       - name: chmod Build
         run: chmod +x patch_xiaomi.sh
       - name: download chmod
