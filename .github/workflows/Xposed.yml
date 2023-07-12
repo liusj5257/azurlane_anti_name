@@ -15,7 +15,8 @@ jobs:
       with:
         repository: liusj5257/Zygisk-Azurlane
         token: ${{ secrets.TOKEN }}
-        ref: main
+#         ref: main
+        ref: menu_no_move
         path: Zygisk-Azurlane
     - name: checkout xposed
       uses: actions/checkout@v3
