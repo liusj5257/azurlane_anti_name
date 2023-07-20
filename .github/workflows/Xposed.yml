@@ -1,6 +1,6 @@
 name: Xposed
 on:
-  push:
+#   push:
   workflow_dispatch:
 #       inputs:
 #         cheat:
