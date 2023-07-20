@@ -1,5 +1,6 @@
 name: Xposed
 on:
+  push:
   workflow_dispatch:
 #       inputs:
 #         cheat:
@@ -10,15 +11,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+#     - name: checkout Zygisk-Azurlane
+#       uses: actions/checkout@v3
+#       with:
+#         repository: liusj5257/Zygisk-Azurlane
+#         token: ${{ secrets.TOKEN }}
+# #         ref: main
+#         ref: menu_no_move
+#         path: Zygisk-Azurlane
     - name: checkout Zygisk-Azurlane
-      uses: actions/checkout@v3
-      with:
-        repository: liusj5257/Zygisk-Azurlane
-        token: ${{ secrets.TOKEN }}
-#         ref: main
-        ref: menu_no_move
-        path: Zygisk-Azurlane
-    - name: checkout xposed
       uses: actions/checkout@v3
       with:
         repository: liusj5257/Zygisk-Azurlane
@@ -56,27 +57,36 @@ jobs:
 #         files: |
 #           xposed/output/*.apk
 
-    - name: build lib
-      run: |
-        chmod +x ./gradlew
-        sed -i '/endif()/a add_definitions(-D CHEAT)' module/src/main/cpp/CMakeLists.txt
-        ./gradlew :module:assembleRelease
-      working-directory: Zygisk-Azurlane
+    # - name: build lib
+    #   run: |
+    #     chmod +x ./gradlew
+    #     sed -i '/endif()/a add_definitions(-D CHEAT)' module/src/main/cpp/CMakeLists.txt
+    #     ./gradlew :module:assembleRelease
+    #   working-directory: Zygisk-Azurlane
       
     - name: build xposed apk
       run: |
         chmod +x ./gradlew
-        ./gradlew build
+        ./gradlew :app:assembleRelease
       working-directory: xposed
 
-    - name: upload XposedCheat apk
-      if: ${{ github.event.inputs.cheat }} == 'true'
+    - name: upload apk
       uses: marvinpinto/action-automatic-releases@latest
       with:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
-        automatic_release_tag: "XposedCheat"
+        automatic_release_tag: "Xposed"
         draft: true
-        title: "XposedCheat"
+        title: "Xposed"
         files: |
-          xposed/output/*.apk
+          xposed/out/*.apk
+    # - name: upload XposedCheat apk
+    #   if: ${{ github.event.inputs.cheat }} == 'true'
+    #   uses: marvinpinto/action-automatic-releases@latest
+    #   with:
+    #     repo_token: "${{ secrets.GITHUB_TOKEN }}"
+    #     automatic_release_tag: "XposedCheat"
+    #     draft: true
+    #     title: "XposedCheat"
+    #     files: |
+    #       xposed/output/*.apk
 
