@@ -50,7 +50,7 @@
 
 # [Magisk_Zygisk 模块](https://github.com/liusj5257/azurlane_anti_name/blob/master/Zygisk.md)
 
-# [Lsposed 模块](https://github.com/liusj5257/azurlane_anti_name/releases/tag/Xposed)
+# [Lsposed 模块](https://github.com/Xposed-Modules-Repo/io.github.liusj5257)
 
 # 请我喝杯奶茶
 
