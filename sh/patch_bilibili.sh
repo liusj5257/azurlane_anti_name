@@ -4,7 +4,7 @@
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
     # 下载游戏apk的地址,我找不到一个固定的链接,理论上每次更新客户端都要手动改地址
-    url="https://github.com/hmgdd101/azurlane/releases/download/default/blhx_7.1.1_20230610_1_20230616_031339_073b2.apk"
+    url="https://github.com/creditorsir/AzurLane_Revise/releases/download/latest/blhx_7.1.1_20230610_1_20230616_031339_073b2.patched.apk"
     # 使用wget命令下载apk文件
     axel -n 16 -k -o blhx.apk $url
     fi
