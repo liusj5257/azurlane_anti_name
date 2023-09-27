@@ -52,11 +52,12 @@
 
 # [Lsposed 模块](https://github.com/Xposed-Modules-Repo/io.github.liusj5257)
 
+# [爱发电赞助版](https://afdian.net/a/azurlane_anti_name)
+
+![az](https://github.com/liusj5257/azurlane_anti_name/assets/87109954/318149cf-da95-45db-971b-9ede3907f2a9)
+
+
 # 请我喝杯奶茶
-
-[爱发电大舞台](https://afdian.net/a/azurlane_anti_name)
-
-**支付宝请备注ID**
 
  <img src="https://github.com/liusj5257/azurlane_anti_name/assets/87109954/7a8d312f-b7a0-48dc-b8ec-7f897828bc94" width="250">
 
