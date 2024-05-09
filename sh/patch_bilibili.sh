@@ -1,10 +1,18 @@
 #!/bin/bash
 
+extract_android_link() {
+    curl -s https://static.biligame.com/config/blhx.config.js | \
+    grep -o '"android_link": ".*"' | awk -F'"' '{print $4; exit}'
+}
+
+
+
 # Download Azur Lane
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
     # 下载游戏apk的地址,我找不到一个固定的链接,理论上每次更新客户端都要手动改地址
-    url="https://pkg.biligame.com/games/blhx_8.1.1_20240426_1_20240429_053419_20cea.apk"
+    # url="https://pkg.biligame.com/games/blhx_8.1.1_20240426_1_20240429_053419_20cea.apk"
+    url=$(extract_android_link)
     # 使用wget命令下载apk文件
     axel -n 16 -k -o blhx.apk $url
     fi
