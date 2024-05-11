@@ -6,7 +6,7 @@
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
     #这个链接是当乐网 https://ng.d.cn/bilanhangxian/
-    url="https://res5.d.cn/8f34603968ae89609d501eb742ecdbd0cc2b4c3408415ca0d48adf3fb223b6704f08ffab07843462faf8b2ad3816559781de26a302d155621dcce88bd8c5afd8a71c868365e1877c.apk"
+    url="https://res5.d.cn/96cdd4ec43025fe841ac211f34ef8bbc3c3dee3b919e843726714eebe317fdcf72a74619c281751884f23d9063e2fa0a5039f505f2ea5cfad7793c6fb74102d68a85e0640b8f1a5e.apk?f=web"
     axel -n 16 -k -o blhx.apk $url
     fi
 }
