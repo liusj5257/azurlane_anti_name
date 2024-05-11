@@ -6,7 +6,7 @@
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
     # 这个链接是MUMU下载的,应该是9游,其他渠道自行修改直链
-    url="https://downali.game.uc.cn/s/2/10/20230615190152_blhx_uc_2023_06_15_11_41_37.apk?x-oss-process=udf/uc-apk,ZBHDgDZ0LxUV2e1761983120100d&did=08f3dca9058e4188b9907fac1cf9b163&cc=766361336&vh=1a6f9d122ad7fe4b2daf5170a11d0af7&sf=1423409522"
+    url="https://downali.9game.cn/s1/2/10/20240428205421_blhx_uc_2024_04_26_21_26_31.apk?x-oss-process=udf/uc-apk,ZxHCpEkdZToZIcK9w5zDrMOqwro=1b844615ecd92ab2&did=b16d1c0feef145dbb78bee2088d4a433&cc=3978586755&vh=5de7b63561dd256e1c3c33539f02a794&sf=1411042428"
     axel -n 16 -k -o blhx.apk $url
     fi
 }
