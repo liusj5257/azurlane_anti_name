@@ -1,7 +1,7 @@
 #!/bin/bash
 
 extract_android_link() {
-    curl -s https://static.biligame.com/config/blhx.config.js | \
+    curl -s https://line1-h5-pc-api.biligame.com/game/detail/gameinfo?game_base_id=97 | \
     grep -o '"android_link": ".*"' | awk -F'"' '{print $4; exit}'
 }
 
