@@ -52,7 +52,7 @@
 
 # [Lsposed 模块](https://github.com/Xposed-Modules-Repo/io.github.liusj5257)
 
-# [爱发电赞助版](https://afdian.net/a/azurlane_anti_name)
+# [爱发电赞助版](https://ifdian.net/a/azurlane_anti_name)
 
 ![az](https://github.com/liusj5257/azurlane_anti_name/assets/87109954/318149cf-da95-45db-971b-9ede3907f2a9)
 
