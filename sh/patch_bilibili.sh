@@ -13,6 +13,7 @@ download_azurlane() {
     if [ ! -f "AzurLane.apk" ]; then
         url=$(extract_android_link)
         echo "下载地址: $url"
+        url="https://pkg.biligame.com/games/blhx_9.5.11_0427_1_20250506_095207_d4e3f.apk"
 
         # 使用强化请求头下载
         if ! curl -L -o "AzurLane.apk" "$url" \
@@ -20,7 +21,7 @@ download_azurlane() {
             -H "Referer: https://www.bilibili.com/" \
             -H "Accept: text/html,application/xhtml+xml..." \
             -H "Accept-Language: zh-CN,zh;q=0.9" \
-            --retry 3 --retry-delay 5; then
+            --retry 5 --retry-delay 5; then
             echo "错误: 下载失败，可能是IP被封锁或请求头不足"
             exit 1
         fi
