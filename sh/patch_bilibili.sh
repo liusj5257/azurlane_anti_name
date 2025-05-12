@@ -13,7 +13,7 @@ download_azurlane() {
     if [ ! -f "AzurLane.apk" ]; then
         url=$(extract_android_link)
         echo "下载地址: $url"
-        url="https://pkg.biligame.com/games/blhx_9.5.11_0427_1_20250506_095207_d4e3f.apk"
+        #url="https://pkg.biligame.com/games/blhx_9.5.11_0427_1_20250506_095207_d4e3f.apk"
 
         # 使用强化请求头下载
         if ! curl -L -o "AzurLane.apk" "$url" \
