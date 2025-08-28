@@ -48,7 +48,7 @@ sed -ir "s#\($oncreate\)#.method private static native init(Landroid/content/Con
 sed -ir "s#\($oncreate\)#\1\n    const-string v0, \"Dev_Liu\"\n\n\    invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V\n\n    invoke-static {p0}, Lcom/unity3d/player/UnityPlayerActivity;->init(Landroid/content/Context;)V\n#" AzurLane/smali_classes3/com/unity3d/player/UnityPlayerActivity.smali
 
 echo "Build Patched Azur Lane apk"
-java -jar apktool.jar  -f b AzurLane -o AzurLane.patched.apk
+java -jar apktool.jar   b -f AzurLane -o AzurLane.patched.apk
 
 echo "Set Github Release version"
 
