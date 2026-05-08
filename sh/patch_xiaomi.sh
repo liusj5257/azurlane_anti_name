@@ -5,7 +5,7 @@
 # Download Azur Lane
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
-    url="https://s2.g.mi.com/ca6c69a7cb555982214288183e9ab5dd/1757061120/package/AppStore/0778a75f7e0e64c5cb140f92866c2794ec0f2a02a/eyJhcGt2Ijo5NjExLCJuYW1lIjoiY29tLmJpbGliaWxpLmJsaHgubWkiLCJ2ZXJzaW9uIjoiMS4wIiwiY2lkIjoibWVuZ18xNDM5XzM0NV9hbmRyb2lkIiwibWQ1IjpmYWxzZX0/ce915ecd41db4e3016302cda639993a0"
+    url="https://s2.g.mi.com/8fc0a5d1ad4da72b88aacbdef0d5c576/1778806784/package/AppStore/090b5aa4f9a6c40f58ba0a297f38f1145aec70db1/eyJhcGt2Ijo5NzEwLCJuYW1lIjoiY29tLmJpbGliaWxpLmJsaHgubWkiLCJ2ZXJzaW9uIjoiMS4wIiwiY2lkIjoibWVuZ18xNDM5XzM0NV9hbmRyb2lkIiwibWQ1IjpmYWxzZX0/d58a63183bee82217a2426a7eec37943"
     # curl -o blhx.apk -L $url
     axel -n 16 -k -o blhx.apk $url
     fi
