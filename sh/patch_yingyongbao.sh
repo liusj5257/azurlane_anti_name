@@ -8,7 +8,7 @@ download_azurlane () {
     # 使用curl命令下载apk文件
     #curl -o blhx.apk  $url
     #url="https://c1.g.mi.com/package/AppStore/01d47c0d09ac743e3906d18e7269f4b786a951c12/eyJhcGt2Ijo2MjIwLCJuYW1lIjoiY29tLmJpbGliaWxpLmJsaHgubWkiLCJ2ZXJzaW9uIjoiMS4wIiwiY2lkIjoibWVuZ18xNDM5XzM0NV9hbmRyb2lkIiwibWQ1IjpmYWxzZX0/5d79bb51f9146ab21cdbc5621c2a85d5"
-    url="https://imtt2.dd.qq.com/sjy.00008/sjy.00002/16891/apk/9903C0B0EB455A130EC7B802EB38F346.apk?fsname=com.tencent.tmgp.bilibili.blhx_9611.apk"
+    url="https://imtt2.dd.qq.com/sjy.00008/sjy.00002/16891/apk/32E4FC0ABC3FC53C0C6B367099DC9E2C.apk?fsname=com.tencent.tmgp.bilibili.blhx_9710.apk"
     axel -n 16 -k -o blhx.apk $url
     fi
 }
